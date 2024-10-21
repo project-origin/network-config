@@ -8,3 +8,11 @@ areas:
   DK2:
     issuerKeys:
     - publicKey: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUNvd0JRWURLMlZ3QXlFQU1kb1BGVlRmS1MybnF5WnI1Z3l5ekQ0NTV0NnJNcm90OWJXLzEwOU5nc0U9Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo=
+
+# Business alignment parameters that ensures alignment between registries to ensure that the granular certificates are interchangable.
+# This set can be expanded according to use and decision by the energy track and trace working group.
+parameters:
+  # time dependent variables that need to be implemented 
+  # time is denominated in UTC hours
+  expiration_time:  # Add your expiration time value here
+  issuing_retention:  # Add your issuing retention value here
